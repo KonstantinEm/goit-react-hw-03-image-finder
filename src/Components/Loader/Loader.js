@@ -7,7 +7,11 @@ const Loader = () => (
     height={300}
     width={300}
     color="#3f51b5"
-    style={{ marginTop: "10em" }}
+    style={{
+      marginTop: "10em",
+      marginLeft: "auto",
+      marginRight: "auto",
+    }}
   />
 );
 
