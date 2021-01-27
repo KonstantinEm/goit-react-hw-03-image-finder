@@ -21,7 +21,7 @@ const ImageFinder = ({
     <>
       <SearchbarContainer onSubmit={onSubmit} />
       {loader && <Loader />}
-      {error && <h1>something went wrong, try again later</h1>}
+      {error && <h1> Something went wrong, try again later</h1>}
       {!loader && !error && !!imagesCollection.length && (
         <ImageGallery
           imagesCollection={imagesCollection}

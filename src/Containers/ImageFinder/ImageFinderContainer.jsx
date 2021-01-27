@@ -52,7 +52,7 @@ const ImageFinderContainer = (props) => {
   const conditionalEmptyInput = () => {
     setImagesCollection([]);
     setNumberPage(1);
-    toast.success("I don't see what you're looking.");
+    toast.success("I don't see what you're looking for.");
   };
 
   const conditionalFillingList = (prevValue, value, data) => {

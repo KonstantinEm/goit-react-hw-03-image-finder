@@ -1,6 +1,6 @@
-const CLIENT_KEY = process.env.REACT_APP_CLIENT_KEY;
+/* eslint-disable import/no-anonymous-default-export */
+const CLIENT_KEY = "18839530-4e500f23cd7e38f757fc7d3b1";
 
-// eslint-disable-next-line import/no-anonymous-default-export
 export default (url) => {
   return `?${url}&key=${CLIENT_KEY}`;
 };
